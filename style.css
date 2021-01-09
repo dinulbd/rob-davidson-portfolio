@@ -1,0 +1,462 @@
+*{margin:0;padding:0;}
+
+body{
+    /*position: relative;
+    width: 1440px;
+    height: 2660px;
+
+background: #FFFFFF;  
+*/
+}
+nav{
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    left: 1020px;
+    top: 37px; 
+    
+}
+ul{
+    display: block;
+    list-style-type: none;
+}
+
+li{ 
+
+    float: right; 
+    margin: 10px;
+    display: inline;
+}
+.nav-menu{
+    text-decoration: none;
+    color: #000;
+}
+
+
+h1{
+    position: absolute;
+    width: 448px;
+    height: 60px;
+    left: 80px;
+    top: 183px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #363958;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+.self-descripton{
+    position: absolute;
+    width: 309px;
+    height: 48px;
+    left: 80px;
+    top: 308px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #3E3E3E;
+}
+
+
+.hire-button{  
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 80px;
+    top: 370px;
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 22px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+
+    
+    background-color: #FB7163;
+    color: #FFFFFF ;
+    }
+
+
+
+.orange-highlight {
+    color:#FF8366;
+}
+
+.prof-1st-image{
+    position: absolute;
+    width: 465px;
+    height: 613px;
+    left: 830px;
+    top: 38px;
+}
+.pro-2nd-image{
+    position: absolute;
+    width: 476.26px;
+    height: 583.51px;
+    left: 123px;
+    top: 544px;
+}
+
+
+
+
+h3{
+    position: absolute;
+    width: 95px;
+    height: 48px;
+    left: 831px;
+    top: 738px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height */
+
+    color: #363958;
+}
+
+
+.about-description{
+    position: absolute;
+    width: 451px;
+    height: 132px;
+    left: 831px;
+    top: 800px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #3E3E3E;
+}
+
+.download-button{
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 831px;
+    top: 935px;
+
+
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 22px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+
+    
+    background-color: #FB7163;
+    color: #FFFFFF ;
+}
+.work-section{
+    position: absolute;
+    background-color: red;
+    top: 1200px;
+    width: 1440px;
+    height: 120px;
+    background-color: #F8F9FC;;
+   
+}
+h3.working-project{
+    width: 700px;
+    height: 30px;
+    left: 470px;
+    top: 124px ;
+    
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height */
+
+}
+
+
+
+.power-gym-box{
+    position: absolute;
+    width: 371px;
+    height: 475px;
+    left: 135px;
+    top: 250px;
+
+    
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+}
+.gym-img{
+    position: absolute;
+    width: 370px;
+    height: 374px;
+    left: 0px;
+    top: 0px;
+}
+.gym-head{
+    position: absolute;
+    width: 306px;
+    height: 28px;
+    left: 0px;
+    top: 390px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+.gym-p{
+    position: absolute;
+    width: 366px;
+    height: 50px;
+    left: 0px;
+    
+    top: 420px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 175% */
+
+    color: #6C6C6C;
+
+}
+
+.cox-bazar-box{
+    position: absolute;
+    width: 370px;
+    height: 474px;
+    left: 551px;
+    top: 250px;
+
+    
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+}
+.cox-img{
+    position: absolute;
+    width: 370px;
+    height: 374px;
+    left: 0px;
+    top: 0px;
+}
+
+.cox-head{
+    position: absolute;
+    width: 306px;
+    height: 28px;
+    left: 0px;
+    top: 390px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+.cox-p{
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    
+    top: 420px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 175% */
+
+    color: #6C6C6C;
+
+}
+
+.rock-music-box{
+    position: absolute;
+    width: 370px;
+    height: 474px;
+    left: 951px;
+    top: 250px;
+   
+}
+
+.music-img{
+    position: absolute;
+    width: 370px;
+    height: 374px;
+    left: 0px;
+    top: 0px;
+}
+
+.music-head{
+    position: absolute;
+    width: 306px;
+    height: 28px;
+    left: 0px;
+    top: 390px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+
+.music-p{
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    
+    top: 420px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 175% */
+
+    color: #6C6C6C;
+
+
+}
+
+
+
+.work-inquary-box{
+    position: absolute;
+    width: 906px;
+    height: 200px;
+    left: 267px;
+    top: 2116px;
+
+    /* Linear */
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+}
+.inq-head{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 341px;
+    top: 2190px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.chat-button{
+    position: absolute;
+    width: 134px;
+    height: 60px;
+    left: 972px;
+    top: 2190px;
+
+
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 22px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    
+    background-color: #FB7163;
+    color: #FFFFFF ;
+}
+
+.footer-p{
+    position: absolute;
+    width: 223px;
+    height: 24px;
+    left: 650px;
+    top: 2450px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    
+    /* identical to box height */
+
+    color: #696871;
+}
+
+.design-head{
+    position: absolute;
+    width: 301px;
+    height: 42px;
+    left: 620px;
+    top: 2474px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #363958;
+}
+.img-log-1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 635px;
+    top: 2520px;
+
+}
+
+.img-log-2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 700px;
+    top: 2520px;
+
+}
+
+.img-log-3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 765px;
+    top: 2520px;
+
+}
